@@ -5,7 +5,7 @@
 
 module Morte.Context (
     -- * Context
-      Context
+      Context(..)
     , empty
     , insert
     , lookup

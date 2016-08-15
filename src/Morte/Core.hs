@@ -67,6 +67,10 @@ module Morte.Core (
     -- * Errors
     TypeError(..),
     TypeMessage(..),
+
+    -- * Exported in fork
+    whnf,
+    freeIn,
     ) where
 
 import Control.Applicative (Applicative(..), (<$>))
